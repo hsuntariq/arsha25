@@ -93,3 +93,18 @@
     background:linear-gradient(to right,rgba(55, 81, 126,.5),rgba(55, 81, 126,0.7)), url('https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp')
    
 }
+
+.img-animate{
+    overflow: hidden;
+}
+
+.img-overlay{
+    transition: all 0.5s;
+    transform: translateY(100px);
+    background-color: rgba(255,255,255,0.8);
+}
+
+
+.img-animate:hover .img-overlay{
+    transform: translateY(0);
+}
